@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("images/blackbgroundopm.jpg");
+}
+.menu{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10% 
+}
+.logo{
+    color: crimson;
+    font-size: 30px;
+    font-family: 'Rubik Puddles';
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: indianred;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Rubik Distressed'
+}
+
+nav ul li a:hover{
+  color: #eee5e9;
+  transition: .3s; 
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+a.newss {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+a:newss hover, a:active {
+  background-color: red;
+}
+
+h5{
+  margin-left: 100px;
+  margin-top: 700px;
+  color: #fff;
+}
+
+.Abot {
+  color: whitesmoke;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 250px;
+  position: fixed;
+  font-family: 'Rubik Distressed';
+  font-size: 20px;
+}
+.abot2 {
+  color: whitesmoke;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 350px;
+  position: fixed;
+}
+object {
+  margin-top: 80px;
+  margin-left: 30px;  
+}
+
+form {
+  margin-left: 10px;
+  
+}
+
+p{
+  margin-left: 10px;
+}
+
+table {
+  margin-left: 50px;
+}
+
+h4{
+  color: #fff;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.listed {
+  margin: 0 0 0 50px;
+}
+
+li b{
+  margin: 0 0 0 275px;
+  font-family: 'Bangers' ;
+  font-size: 30px;
+  color: #fff
+}
+/* Mobile Styles */
+@media (max-width: 560px) {
+  
+}
+/* Tablet Styles */
+@media (max-width: 1023px) {
+  
+}
+
+li p {
+  font-family: 'Bangers', bold;
+  font-size: 20px;
+  color: #fff;
+  
+}
+
+div form label {
+  font-family: 'Indie Flower';
+  
+}
+
+p {
+  font-family: 'Indie Flower';
+}
+
+.thklink {
+  font-size: 40px;
+  font-family: 'Bangers', bold;
+  background-color: #f44336;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: #D7D6D6;
+  display: inline-block;
+  margin-left: 10px;  
+}
+
+:thklink hover, active{
+
+  
+}
+.submissionp {
+  font-size: 30px;
+  font-family: 'Bangers', bold;
+
+}
+
+:submisiionp hover, a:active {
+  background-color: #3A0CA3;
+
+}
+/* 
+.blkbground {
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  height: 100%
+
+} */
+
+.cr {
+  color: white;
+}
+
+.homeGround {
+    background-image: url("images/MoonTama.jpg");
+}
+
+.thksman {
+    background-color: #fff;
+    background-image: none;
+}
+.new11 {
+    background-color: #e9ecef;
+    background-image: none;
+}
+
+.rsystem {
+    background-image: url("images/villainbackground2.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.atmoon {
+    background-image: url("images/MoonTama2.jpg");
+}
